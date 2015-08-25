@@ -1,5 +1,5 @@
 .hallotoolbar, .dropdown-menu{
-  @include border-radius;
+  @include border-radius(2px);
   border: 1px solid #AAA;
   padding: 3px;
   background-color: white;
