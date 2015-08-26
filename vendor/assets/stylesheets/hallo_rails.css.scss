@@ -48,8 +48,8 @@
   left: 0;
   background-color: white;
   border: 1px dashed orange;
-  @include opacity(0.9);
-  @include border-radius;
+  // @include opacity(0.9);
+  @include border-radius(1px);
 }
 
 .editable:hover:before,
